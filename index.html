@@ -7,12 +7,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/669d1df05a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">  
     <title>Portfolio Neha K</title>
 </head>
 <body>
+    <section class="first">
     <nav class="navbar navbar-expand-lg bg-transparent">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">NK.</a>
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -22,7 +25,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
@@ -30,26 +33,87 @@
               </ul>
               <button type="button" class="btn btn-primary">Resume</button>
           </div>
-        </div>
+      
       </nav>
         <div class="section-one container-fluid">
              <div class="row align-items-center">
                 <div class="col-md-6 col-sm-9 order-md-1">
-                    <img src="img1.png">
+                    <img src="images/img1.png">
                     </div>
                     <div class="col-md-6 col-sm-9 ">
 
-                       <h1>NEHA KESKAR</h1> 
+                       <h2>Hi!</h2><h1>I am NEHA.</h1> 
                         <h3>Full Stack Web Developer</h3>
-                        <p>Hello, my name is NEHA. I am an aspiring full-stack Web Developer 
+                        <p>Hello, my name is NEHA KESKAR. I am an aspiring full-stack Web Developer 
                             based in Pune, India. I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, Figma and Web Hosting. Learn - Build - Showcase. That's what I like to do. You can browse my projects hosted online and it's source code.</p>
-
                     </div>
-                    
                 </div>
+        </div>
+</section>
+<section  class="second py-5" id="projects">
+    <div class="container">
+        <h3 class="d-flex justify-content-center">My Projects</h3>
+         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        
+            <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('images/quiz.png'); background-size:cover;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Quiz-On Myself</h4>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                    <a>View Project</a>
+                  
+                </li>
+               
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <a>Source Code</a>
+                </li>
+              </ul>
             </div>
-
-
+          </div>
+        </div>
+  
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('images/quiz-friends.png'); background-size:cover;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Quiz-On Friends</h4>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                    <a>View Project</a>
+                  
+                </li>
+               
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <a>Source Code</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('images/minions.png'); background-size:cover;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Translator: English to Minion Language </h4>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                    <a>View Project</a>
+                  
+                </li>
+               
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <a>Source Code</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
     
 
 
@@ -58,4 +122,16 @@
    
 
 </body>
+<footer>
+    <section class="footer py-5">
+        <div class="d-flex justify-content-center">
+            <h4>Ping Me On</h4>
+        </div>
+        <div class="d-flex justify-content-center">
+<i class="fa-brands fa-github fa-2x fa-beat px-3"></i>
+<i class="fa-brands fa-linkedin fa-2x fa-beat px-3"></i>
+<i class="fa-brands fa-twitter fa-2x fa-beat px-3"></i>
+</div>
+    </section>
+</footer>
 </html>
