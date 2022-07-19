@@ -2,6 +2,7 @@ body{
     font-family: Inter,sans-serif;
     background: url(bg-portfolio.png);
     background-size: cover;
+    background-position: right;
 }
 img{
     width: 100%;
@@ -27,6 +28,10 @@ p{
 
 @media only screen and (min-width:768px)
 {
+
+    body{
+        background-position: left;
+    }
     .nav{
         padding: 0em 3em;
      }
