@@ -3,6 +3,7 @@ body{
     background: url(bg-portfolio.png);
     background-size: cover;
     background-position: right;
+    background-repeat: no-repeat;
 }
 img{
     width: 100%;
