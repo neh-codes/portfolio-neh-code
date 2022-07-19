@@ -42,6 +42,10 @@ p{
 .second{
     background-color: #f4f4f4;
 }
+#projects a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 @media only screen and (min-width:768px)
 {
