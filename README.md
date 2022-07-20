@@ -1,8 +1,4 @@
-# DEMO
+# Portfolio
 
-HI please ignore this is just Demo
-for now, i know
-
-1. lorem
-2. ipsum
-3. dolor
+HI ! This is my demo portfolio.
+thanks.
