@@ -15,7 +15,7 @@
 <body>
     <section class="first">
         <nav class="navbar navbar-expand-lg bg-transparent">
-            <div class="container">
+            <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,14 +39,16 @@
           <div id="projects">
         <div class="container py-5">
             <h3 class="d-flex justify-content-center">My Projects</h3>
-             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-            
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        
                 <div class="col">
                     <a href="https://replit.com/@nehakeskar/quiz-1?embed=1&output=1" target="_blank">
                     <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('images/quiz.png'); background-size:cover;">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                       <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Quiz-On Myself</h4>
-                      <p class="text-white">A fun quiz on myself made on CLI using JavaScript.</p>
+                      <span id="tag">markOne</span>
+                      <p class="text-white pt-2">A fun quiz on myself made on CLI using JavaScript.</p>
+                      
                       <ul class="d-flex list-unstyled mt-auto">
                         <li class="me-auto">
                             <a href="https://replit.com/@nehakeskar/quiz-1?embed=1&output=1" target="_blank">View Project</a>
@@ -55,54 +57,59 @@
                        
                         <li class="d-flex align-items-center">
                           <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                          <a href="https://github.com/neh-codes/quiz-1" target="_blank">Source Code</a>
+                          <a href="https://github.com/neh-codes/quiz-1" target="_blank">Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </li>
                       </ul>
                     </div>
                   </div>
                   </a>
+        
                 </div>
-
-
-            <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('images/quiz-friends.png'); background-size:cover;">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Quiz-On Friends</h4>
-                  <ul class="d-flex list-unstyled mt-auto">
-                    <li class="me-auto">
-                        <a>View Project</a>
+          
+                <div class="col">
+                    <a href="https://replit.com/@nehakeskar/quiz-2?embed=1&output=1" target="_blank">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('images/quiz-office.png'); background-size:cover;">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                      <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Quiz-On the Office</h4>
+                      <span id="tag">markTwo</span>
+                      <p class="text-white pt-2">Are you the Office Fan? Let's take quiz and see!</p>
                       
-                    </li>
-                   
-                    <li class="d-flex align-items-center">
-                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                      <a>Source Code</a>
-                    </li>
-                  </ul>
+                      <ul class="d-flex list-unstyled mt-auto">
+                        <li class="me-auto">
+                            <a href="https://replit.com/@nehakeskar/quiz-2?embed=1&output=1" target="_blank">View Project</a>
+                          
+                        </li>
+                       
+                        <li class="d-flex align-items-center">
+                          <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                          <a href="https://github.com/neh-codes/quiz-2" target="_blank">Source Code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  </a>
+        
+                </div>
+          
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('images/minions.png'); background-size:cover;">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                      <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Translator: Minion Language </h4>
+                      <ul class="d-flex list-unstyled mt-auto">
+                        <li class="me-auto">
+                            <a>View Project</a>
+                          
+                        </li>
+                       
+                        <li class="d-flex align-items-center">
+                          <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                          <a>Source Code</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-      
-            <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('images/minions.png'); background-size:cover;">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  <h4 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Translator: Minion Language </h4>
-                  <ul class="d-flex list-unstyled mt-auto">
-                    <li class="me-auto">
-                        <a>View Project</a>
-                      
-                    </li>
-                   
-                    <li class="d-flex align-items-center">
-                      <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                      <a>Source Code</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex justify-content-center">
         </div>
         </div>
         </div>
