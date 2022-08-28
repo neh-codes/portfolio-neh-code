@@ -231,18 +231,21 @@ p{
     color: #fff!important;
 }
 .blog-card{
-        height: 490px!important;
+        height: 100%!important;
         overflow: hidden!important;
         --bs-bg-opacity: 1;
         background-color: #fff!important;
         border-radius: 1rem;
         box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
         background-size: cover;
-        
         display: flex;
         flex-direction: column;
         min-width: 0;
         word-wrap: break-word;
+}
+.blog-card a{
+    text-decoration: none;
+    color: #121212;
 }
 .card h4{
     line-height: 1.7rem!important;
