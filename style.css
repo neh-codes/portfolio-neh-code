@@ -260,7 +260,7 @@ p{
     border-radius: 1rem;
     padding: 0.1rem 0.3rem;
     width: max-content;
-    display: none;
+    display: inline-block;
     font-size: small;
     margin-left: 2px;
 }
