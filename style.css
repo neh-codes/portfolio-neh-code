@@ -164,7 +164,7 @@ body{
 }
 h1{
     font-weight: 700;
-    font-size: 50px;
+    font-size: 42px;
 }
 h2{
     font-weight: 600;
@@ -260,7 +260,7 @@ p{
     border-radius: 1rem;
     padding: 0.1rem 0.3rem;
     width: max-content;
-    display: inline-block;
+    display: none;
     font-size: small;
     margin-left: 2px;
 }
